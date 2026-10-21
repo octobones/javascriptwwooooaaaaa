@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mudano tema</title>
+</head>
+<body>
+    <h1>temas</h1>
+    <button onclick="mudar()">tema escuro</button>
+    <button onclick="voltar()">tema claro</button>
+
+
+    <script>
+        function mudar(){
+            document.body.style.backgroundColor = 'darkblue'
+            document.body.style.color = 'red'
+            document.body.style.fontSize = '50px'
+        }
+        function voltar(){
+            document.body.style.backgroundColor = 'lightblue'
+            document.body.style.color = 'green'
+            document.body.style.fontSize = '10px'
+        }
+    </script>
+</body>
+</html>
